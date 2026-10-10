@@ -16,7 +16,7 @@ const ucapanRef = collection(db, "ucapan");
 
 // ====== KONFIGURASI ACARA ======
 // Format: YYYY-MM-DDTHH:mm:ss+08:00 (WITA)
-const TANGGAL_ACARA = new Date('2026-10-18T08:00:00+08:00');
+const TANGGAL_ACARA = new Date('2026-10-17T01:30:00+01:30');
 
 // ====== 1. NAMA TAMU DARI URL (?to=Budi-dan-Mba-Siti) ======
 const params = new URLSearchParams(window.location.search);
