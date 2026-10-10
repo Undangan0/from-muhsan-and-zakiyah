@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Undangan Pernikahan Muhsan & Zakiyah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="locked">
+
+  <!-- KOVER DEPAN -->
+  <section id="cover" class="cover">
+    <div class="cover-inner">
+      <p class="small">The Wedding Of</p>
+      <h1 class="script">Muhsan <br>&amp;<br>Zakiyah</h1>
+      <p class="small mt">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+      <h2 id="guestName" class="guest">Tamu Undangan</h2>
+      <p class="tiny">Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di hari bahagia kami.</p>
+      <button id="openBtn" class="btn"><i class="fa-regular fa-envelope" aria-hidden="true"></i>Buka Undangan</button>
+
+    </div>
+  </section>
+
+  <!-- KONTEN UTAMA -->
+  <main id="main" class="hidden">
+
+    <section class="sec hero" id="mempelai">
+      <p class="small reveal">Kami Mengundang Bpk/Ibu/Saudara/i Pada Pernikahan</p>
+      <h2 class="title reveal">Muhsan &amp; Zakiyah</h2>
+      <p class="quote reveal">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan dari
+        jenismu sendiri, agar kamu merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan
+        sayang."<br><em>(QS. Ar-Rum: 21)</em></p>
+
+      <div class="couple">
+        <div class="person reveal">
+          <img src="poto/pt-1.jpeg"  alt="Foto Muhsan">
+          <h3>Muhammad Zaini Muhsan</h3>
+          <p>Putra Pertama dari Bpk. Ahmad Wir Kaswadi &amp; Ibu Sakrah</p>
+        </div>
+        <div class="amp reveal">&amp;</div>
+        <div class="person reveal">
+          <img src="poto/pt-2.jpeg" alt="Foto Zakiyah">
+          <h3>Nurul Zakiyah</h3>
+          <p>Putri Pertama kedua dari Bpk. H. Muhammad Yusuf&amp; Ibu Marisah</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec alt" id="acara">
+      <h2 class="title reveal">Detail Acara</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Akad Nikah</h3>
+          <p class="date">Sabtu, 17 Oktober 2026</p>
+          <p>01.30 WITA - Selesai</p>
+          <p>Rumah Kami RT.00<br>Dusun Gon Luek Desa Selebung Kec. Keruak</p>
+          <a class="btn sm" target="_blank" rel="noopener" href=https://maps.app.goo.gl/9UPTfntV1RT3feB39> <i
+              class="fa-solid fa-location-dot" aria-hidden="true"></i> Lihat Peta </a>
+        </article>
+        <article class="card reveal">
+          <h3>Resepsi</h3>
+          <p class="date">Sabtu, 17 Oktober 2026</p>
+          <p>02.30 WITA - Selesai</p>
+          <p>Rumah Kami RT.00<br>Dusun Gon Luek Desa Selebung Kec. Keruak</p>
+          <a class="btn sm" target="_blank" rel="noopener" href=https://maps.app.goo.gl/9UPTfntV1RT3feB39> <i
+              class="fa-solid fa-location-dot" aria-hidden="true"></i> Lihat Peta </a>
+        </article>
+        <article class="card reveal">
+          <h3>Nyongkolan</h3>
+          <p class="date">Minggu, 18 Oktober 2026</p>
+          <p>03.30 WITA - Selesai</p>
+          <p>Rumah Pengantin Wanita<br>Gelumpe Desa Ketangga Jeraeng Kec. Keruak</p>
+          <a class="btn sm" target="_blank" rel="noopener" href=https://maps.app.goo.gl/zSiU4xiKkdGSYG7h9> <i
+              class="fa-solid fa-location-dot" aria-hidden="true"></i> Lihat Peta </a>
+        </article>
+      </div>
+
+      <h3 class="sub reveal">Menuju Hari Bahagia</h3>
+      <div id="countdown" class="countdown reveal">
+        <div><span id="cd-d">0</span><small>Hari</small></div>
+        <div><span id="cd-h">0</span><small>Jam</small></div>
+        <div><span id="cd-m">0</span><small>Menit</small></div>
+        <div><span id="cd-s">0</span><small>Detik</small></div>
+      </div>
+      <p id="cd-msg" class="small"></p>
+    </section>
+
+    <section class="sec" id="galeri">
+      <h2 class="title reveal">Galeri Kami</h2>
+      <div class="gallery">
+        <img class="reveal" src="poto/pt-1.jpeg" alt="Galeri 1" loading="lazy">
+        <img class="reveal" src="poto/pt-2.jpeg" alt="Galeri 2" loading="lazy">
+        <img class="reveal" src="poto/pt-3.jpeg" alt="Galeri 3" loading="lazy">
+        <img class="reveal" src="poto/pt-4.jpeg" alt="Galeri 4" loading="lazy">
+        <!-- <img class="reveal" src="https://picsum.photos/seed/g5/500/600" alt="Galeri 5" loading="lazy">
+        <img class="reveal" src="https://picsum.photos/seed/g6/500/600" alt="Galeri 6" loading="lazy"> -->
+      </div>
+    </section>
+
+    <section class="sec alt" id="hadiah">
+      <h2 class="title reveal">Amplop Digital</h2>
+      <p class="small reveal">Doa restu Anda adalah hadiah terindah. Namun jika ingin berbagi kebahagiaan, dapat
+        melalui:</p>
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Bank BRI</h3>
+          <p class="rek" id="rek1">0123456789</p>
+          <p>a. n. Muhammad Zaini Muhsan</p>
+          <button class="btn sm copy" data-target="rek1"><i class="fa-regular fa-copy" aria-hidden="true"></i>Salin
+            Nomor Rekening</button>
+        </article>
+        <article class="card reveal">
+          <h3>Bank BSI</h3>
+          <p class="rek" id="rek2">9876543210</p>
+          <p>a. n. Nurul Zakiyah</p>
+          <button class="btn sm copy" data-target="rek2"><i class="fa-regular fa-copy" aria-hidden="true"></i>Salin
+            Nomor Rekening</button>
+        </article>
+        <article class="card reveal">
+          <h3>QRIS</h3>
+          <img class="qris" src="https://picsum.photos/seed/qris/200/200" alt="QRIS (ganti dengan gambar QRIS)">
+        </article>
+      </div>
+    </section>
+
+    <section class="sec" id="ucapan">
+      <h2 class="title reveal">Ucapan &amp; RSVP</h2>
+      <form id="rsvpForm" class="form reveal">
+        <input type="text" id="nama" name="nama" placeholder="Nama Anda" required maxlength="40">
+        <select id="hadir" name="hadir" required>
+          <option value="" disabled selected>Konfirmasi Kehadiran</option>
+          <option value="Hadir">Hadir</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+          <option value="Ragu-ragu">Ragu-Ragu</option>
+        </select>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis ucapan & doa..." required
+          maxlength="300"></textarea>
+        <button type="submit" class="btn"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>Kirim
+          Ucapan</button>
+      </form>
+      <div id="wishList" class="wishes"></div>
+    </section>
+
+    <footer class="foot">
+      <p class="small">Terima kasih atas doa dan restu Anda.</p>
+      <h3 class="script">Muhsan &amp; Zakiyah</h3>
+    </footer>
+  </main>
+
+  <!-- Musik & kontrol -->
+  <audio id="bgm" loop preload="auto">
+    <source src="sound/back_sound.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicBtn" class="music hidden" aria-label="Putar/Jeda musik">&#9835;</button>
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
