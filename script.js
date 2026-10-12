@@ -4,12 +4,20 @@ import { getFirestore, collection, addDoc, query, orderBy, limit, onSnapshot, se
 
 // Konfigurasi proyek: muhsan-zakiyah
 const firebaseConfig = {
-  apiKey: "AIzaSyASWHs2e5CyEXd2_MiZKYDFKfOIjqUO8A4",
-  authDomain: "muhsan-zakiyah-66da2.firebaseapp.com",
-  projectId: "muhsan-zakiyah-66da2",
-  storageBucket: "muhsan-zakiyah-66da2.firebasestorage.app",
-  messagingSenderId: "1062350456702",
-  appId: "1:1062350456702:web:4d5134cb9411289ce3d52f"
+  // Firabase1
+  // apiKey: "AIzaSyASWHs2e5CyEXd2_MiZKYDFKfOIjqUO8A4",
+  // authDomain: "muhsan-zakiyah-66da2.firebaseapp.com",
+  // projectId: "muhsan-zakiyah-66da2",
+  // storageBucket: "muhsan-zakiyah-66da2.firebasestorage.app",
+  // messagingSenderId: "1062350456702",
+  // appId: "1:1062350456702:web:4d5134cb9411289ce3d52f"
+// Firabase1
+  apiKey: "AIzaSyBc_HcWTLfrOFNI6Y__Eu_sl91VwHbEa4w",
+  authDomain: "muhsan-zakiyah-86243.firebaseapp.com",
+  projectId: "muhsan-zakiyah-86243",
+  storageBucket: "muhsan-zakiyah-86243.firebasestorage.app",
+  messagingSenderId: "63416487085",
+  appId: "1:63416487085:web:819bf73b974f981397ca24"
 };
 const db = getFirestore(initializeApp(firebaseConfig));
 const ucapanRef = collection(db, "ucapan");
